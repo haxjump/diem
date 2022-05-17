@@ -1,7 +1,7 @@
 [package]
 name = "diem-key-manager"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 authors = ["Diem Association <opensource@diem.com>"]
 description = "Diem Key Manager"
 repository = "https://github.com/diem/diem"

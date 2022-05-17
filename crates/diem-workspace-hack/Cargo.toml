@@ -7,7 +7,7 @@ repository = "https://github.com/diem/diem"
 homepage = "https://diem.com"
 license = "Apache-2.0"
 publish = false
-edition = "2018"
+edition = "2021"
 
 ### BEGIN HAKARI SECTION
 [dependencies]
@@ -56,6 +56,7 @@ tracing = { version = "0.1.26", features = ["attributes", "log", "std", "tracing
 url = { version = "2.2.2", default-features = false, features = ["serde"] }
 warp = { version = "0.3.0", features = ["multipart", "tls", "tokio-rustls", "tokio-tungstenite", "websocket"] }
 zeroize = { version = "1.2.0", features = ["alloc", "zeroize_derive"] }
+openssl = { version = "0.10", features = ["vendored"] }
 
 [build-dependencies]
 Inflector = { version = "0.11.4", features = ["heavyweight", "lazy_static", "regex"] }
